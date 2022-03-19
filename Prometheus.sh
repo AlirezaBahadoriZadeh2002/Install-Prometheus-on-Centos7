@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 if [ "$(whomi)" != "root" ]
 then
 echo "Error : You must be root to run this command"
@@ -61,3 +60,4 @@ systemctl reload firewalld
 clear
 systemctl status prometheus
 echo FINISH
+
