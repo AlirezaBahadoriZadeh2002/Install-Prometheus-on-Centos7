@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$(whomi)" != "root" ]
+if [ "$(whoami)" != "root" ]
 then
 echo "Error : You must be root to run this command"
 exit 1
